@@ -109,3 +109,12 @@ footer p
   text-align: center;
   
 }
+
+ul{
+  padding-top: 40px;
+  padding-left: 250px;
+  display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: repeat(1, 20px);
+    grid-gap: 10px;;
+}
